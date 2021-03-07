@@ -41,21 +41,74 @@ form {
 }
 
 form > .form-row {
-
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
 }
+
+form > .form-row:nth-of-type(4) {
+    margin-bottom: 60px; 
+}
+
+form > .form-row:last-of-type {
+    margin-bottom: 0px; 
+}
+
 form > .form-row > label {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ccc; 
 
 }
 form > .form-row > input {
+    display: inline-block;
+    width: 100%; 
+    font-size: 20px;
+    line-height: 30px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+
+}
+form > .form-row > p {
+    float: left;
 
 }
 form > .form-row > button {
-
+    float: left;
+    padding: 5px;
+    padding-left: 27px;
+    padding-right: 27px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 22px;
+    color: #fff;
+    background-color: #00CC66;
+    border: none;
+    cursor: pointer;
 }
 form > .form-row > span {
-
+    float: left;
+    padding: 5px;
+    margin-left: 15px;
+    margin-right: 10px;
+    font-size: 17px;
+    line-height: 22 px;
+    color: #ccc;
 }
 form > .form-row > a {
+    float: left;
+    padding: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 22px;
+    text-decoration: none;
+    color: #00CC66;
 
 }
 
