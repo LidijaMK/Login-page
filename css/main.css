@@ -73,12 +73,38 @@ form > .form-row > input {
     border-bottom: 2px solid #ccc;
 }
 
-
+ form > .form-row > input:nth-child(1) {
+    float: left;
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    color: #ccc;
+    cursor:context-menu;
+    margin-right: 10px;
+    background-color:#fff;
 }
+
 form > .form-row > p {
     float: left;
+    font-size: 15px;
+    color: #ccc;
+    line-height: 22px;
+    /*background-color: yellow;*/
 
 }
+
+form > .form-row > .terms {
+    float: left;
+    font-size: 15px;
+    color: #00CC66;
+    line-height: 22px;
+    font-weight: bold;
+    margin-left: 5px;
+    text-decoration: none;
+    /*background-color: yellow;*/
+}
+
+
 form > .form-row > button {
     float: left;
     padding: 5px;
@@ -101,7 +127,7 @@ form > .form-row > span {
     line-height: 22 px;
     color: #ccc;
 }
-form > .form-row > a {
+form > .form-row > .log-in {
     float: left;
     padding: 5px;
     font-size: 17px;
@@ -109,7 +135,7 @@ form > .form-row > a {
     line-height: 22px;
     text-decoration: none;
     color: #00CC66;
-
 }
+
 
 
