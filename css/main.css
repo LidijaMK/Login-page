@@ -15,7 +15,7 @@ body {
     display: inline-block;
     width: 800px;
     margin-left: calc( (100% - 800px) / 2);
-    margin-top: 100px;
+    margin-top: 180px;
     
 }
 
@@ -30,10 +30,24 @@ body {
     padding: 60px;
     float: left;
     background-color: #fff;
+    position: relative
 
 }
 .close {
-    
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 60px;
+    color: #ccc;
+    position: absolute;
+    top: 0;
+    right: 0;  
+}
+.close:hover {
+    background-color: #fff;
+    cursor: pointer;
 }
 form {
     display: inline-block;
