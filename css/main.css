@@ -15,23 +15,55 @@ body {
     display: inline-block;
     width: 800px;
     margin-left: calc( (100% - 800px) / 2);
-    margin-top: 180px;
+    margin-top: 100px;
+    position: relative;
     
 }
 
 .left-column {
+    display: inline-block;
     width: 40%;
-    float: left;
+    color: #fff;
+    background-image: url(../img/forest.jpg);
+    background-repeat:no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
     background-color: blue;
-
 }
+
+.left-column > h1 {
+    position: absolute;
+    left: 60px;
+    right: 60px;
+    top: 60px;
+}
+
+.left-column > p {
+    position: absolute;
+    top: 160px;
+    left: 60px;
+    right: 60px;    
+}
+.left-column > p:last-of-type {
+    top: 240px;
+}
+
+.left-column > img {
+    position: absolute;
+    left: 60px;
+    bottom: 60px;
+}
+
 .right-column {
     width: 60%;
     padding: 60px;
-    float: left;
+    float: right;
     background-color: #fff;
-    position: relative
-
+    
 }
 .close {
     display: inline-block;
@@ -39,19 +71,20 @@ body {
     height: 60px;
     text-align: center;
     font-size: 25px;
-    line-height: 60px;
+    line-height: 57px;
     color: #ccc;
     position: absolute;
     top: 0;
     right: 0;  
 }
 .close:hover {
-    background-color: #fff;
+    color:#777;
     cursor: pointer;
 }
 form {
     display: inline-block;
     width: 100%;  
+    position: relative;
 }
 
 form > .form-row {
@@ -96,27 +129,31 @@ form > .form-row > input {
     cursor:context-menu;
     margin-right: 10px;
     background-color:#fff;
+    cursor: pointer;
+    
 }
 
-form > .form-row > p {
+form > .form-row > label:nth-child(2) {
     float: left;
     font-size: 15px;
     color: #ccc;
     line-height: 22px;
-    /*background-color: yellow;*/
-
+    text-transform: none;
+    position: absolute;
+    z-index: 1;
+    
 }
 
-form > .form-row > .terms {
+form > .form-row > .link {
     float: left;
     font-size: 15px;
     color: #00CC66;
     line-height: 22px;
     font-weight: bold;
-    margin-left: 5px;
     text-decoration: none;
-    /*background-color: yellow;*/
-}
+    position: absolute;
+    right: 20px;
+   }
 
 
 form > .form-row > button {
