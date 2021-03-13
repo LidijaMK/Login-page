@@ -15,6 +15,7 @@ Site published at https://lidijamk.github.io/Login-page/
 
 - HTML
 - CSS
+- relative path
 - Github pages
 
 ## Authors
