@@ -1,0 +1,107 @@
+
+form {
+    display: inline-block;
+    width: 100%;  
+    position: relative;
+}
+
+form > .form-row {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+form > .form-row:nth-of-type(4) {
+    margin-bottom: 60px; 
+}
+
+form > .form-row:last-of-type {
+    margin-top: 20px; 
+}
+
+form > .form-row > label {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ccc; 
+
+}
+form > .form-row > input {
+    display: inline-block;
+    width: 100%; 
+    font-size: 20px;
+    line-height: 30px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+ form > .form-row > input:nth-child(1) {
+    float: left;
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    color: #ccc;
+    cursor:context-menu;
+    margin-right: 10px;
+    background-color:#fff;
+    cursor: pointer;
+    
+}
+
+form > .form-row > label:nth-child(2) {
+    float: left;
+    font-size: 15px;
+    color: #ccc;
+    line-height: 22px;
+    text-transform: none;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+form > .form-row > .link {
+    float: left;
+    font-size: 15px;
+    color: #00CC66;
+    line-height: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    right: 20px;
+   }
+
+
+form > .form-row > button {
+    float: left;
+    padding: 5px;
+    padding-left: 27px;
+    padding-right: 27px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 22px;
+    color: #fff;
+    background-color: #00CC66;
+    border: none;
+    cursor: pointer;
+}
+form > .form-row > span {
+    float: left;
+    padding: 5px;
+    margin-left: 15px;
+    margin-right: 10px;
+    font-size: 17px;
+    line-height: 22 px;
+    color: #ccc;
+}
+form > .form-row > .log-in {
+    float: left;
+    padding: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 22px;
+    text-decoration: none;
+    color: #00CC66;
+}
